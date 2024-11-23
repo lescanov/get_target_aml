@@ -21,5 +21,5 @@ If using ARM based machine:
 CONDA_SUBDIR=osx-64 snakemake --use-conda --cores 1
 ```
 
-** Depending on your machine specs, this workflow may crash **  
+**Depending on your machine specs, this workflow may crash**  
 Retrieving raw counts for TARGET will use lots of ram. May need to modify your Renv to allow R to utilize more resources. If there is a problem, you will have to modify the amount of RAM specified to use in the snakemake rules pertaining to the step in question.
