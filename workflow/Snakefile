@@ -1,0 +1,11 @@
+configfile: 'config/config.yaml'
+report: 'report/workflow.rst'
+
+include: 'rules/common.smk'
+include: 'rules/clinical.smk'
+include: 'rules/rnaseq.smk'
+include: 'rules/mirnaseq.smk'
+
+rule all:
+	input:
+		get_final_output(),

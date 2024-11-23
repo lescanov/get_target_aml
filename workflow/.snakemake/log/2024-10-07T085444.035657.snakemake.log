@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in rule all in file /Users/rocko/projects/get_target_aml/workflow/Snakefile, line 10:
+Missing input files for rule all:
+    affected files:
+        ../../results/mirnaseq/formatted_raw_target_aml_mirna_counts.csv
+        ../../results/rnaseq/formatted_raw_target_aml_rna_counts.csv
+        ../../results/clinical/formatted_target_aml_clinical.csv
